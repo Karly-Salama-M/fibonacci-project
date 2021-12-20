@@ -1,4 +1,3 @@
-// const url = `http://localhost:5050/fibonacci/:number`;
 const buttonIs = document.querySelector('#buttonIs');
 const loader = document.querySelector('#loader');
 const validationMessageOne = document.querySelector('#invalidNumber');
