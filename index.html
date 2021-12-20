@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="main-title">
+                Fibonacci Calculator
+            </h1>
+            <div class="col col-md-9 main-content">
+                <form>
+                    <div class="form-group"> 
+                        <div class="mb-3 mt-3 d-flex flex-row align-items-baseline">
+                            <label for="userInput" class="form-label fibo-of">The Fibonacci of</label>
+                            <input type="number" id="userInput" class="form-control main-input ml-2" placeholder="#" max="50" required onfocus="this.value='' ">
+                            <button type="button" id="buttonIs" class="btn btn-primary action-button">Is</button>
+                            <div id="errorMessageServer"></div>
+                            <div id="resultContainer"></div>
+
+                            <!-- RESULT MODEL -->
+                            <p class="result" id="resultToUser"></p>
+                            <p class="server-error-fortytwo" id="serverErrorFortyTwo"></p>
+
+                            <div class="spinner-border" role="status" id="loader">
+                                <span class="sr-only"></span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div id="errorMessageInput">
+                </div>
+                <div class="result-list-container">
+                    <h2 id="resultsListTitle" class="results-list-title"></h2>
+                    <div id="resultList"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/getresults.js"></script>   
+</body>
+</html>

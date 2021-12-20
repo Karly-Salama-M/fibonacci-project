@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1.main-title {
+    margin-top: 100px;
+    font-size: 72px;
+}
+.fibo-of {
+ font-size: 24px;
+}
+
+/* INPUT */
+.form-control {
+    width: 15%;
+    margin-left: 15px;
+}
+
+/* BUTTON */
+.action-button {
+    margin-left: 15px;
+}
+#resultToUser {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
+#resultToUser.hidden {
+    visibility: hidden;
+}
+
+/* SPINNER */
+.spinner-border {
+    align-self: center;
+}
+#loader {
+    visibility: hidden;
+}
+#loader.display{
+    visibility: visible;
+}
+
+/* ERROR MESSAGES  */
+.server-error-fortytwo {
+    color: #D9534F;
+}
+
+.server-error-fortytwo.hidden {
+    visibility: hidden;
+}
+.error-message-input {
+    font-size: 14px;
+    width: 20%;
+    color: #A94442;
+    background-color: #F2DEDE;
+    text-align: center;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 13%;
+}
+#errorMessageInput.hidden {
+    visibility: hidden;
+}
+.border-color {
+    color: #A94442;
+    border: 1px solid #A94442;
+}
+
+/* RESULT LIST */
+.result-list-container{
+    margin-top: 30px;
+}
+#resultList {
+    margin-top: 20px;
+}
+.item-result { 
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
