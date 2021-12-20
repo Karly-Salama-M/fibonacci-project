@@ -28,7 +28,9 @@ In this project we had to create a function that calls a local server that makes
 
 ### Screenshot
 
-![](https://github.com/Karly-Salama-M/stock-exchange-project/blob/main/img/mobile_view.jpg)
+![](https://github.com/Karly-Salama-M/fibonacci-project/blob/main/img/mobile_view.jpg)
+
+![](https://github.com/Karly-Salama-M/fibonacci-project/blob/main/img/desktop.png)
 
 ### Links
 
